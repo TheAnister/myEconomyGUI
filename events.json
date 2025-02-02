@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Recession",
+        "description": "A global recession reduces growth and tax revenue.",
+        "effects": {
+            "gdp_multiplier": 0.95,
+            "popularity_change": -5,
+            "inflation_change": -0.01
+        }
+    },
+    {
+        "name": "Economic Boom",
+        "description": "The economy is booming with record growth!",
+        "effects": {
+            "gdp_multiplier": 1.05,
+            "popularity_change": 3,
+            "inflation_change": 0.02
+        }
+    },
+    {
+        "name": "Cyberattack",
+        "description": "A major cyberattack disrupts government operations.",
+        "effects": {
+            "gdp_multiplier": 0.93,
+            "deficit_increase": 500000,
+            "popularity_change": -4
+        }
+    }
+]
